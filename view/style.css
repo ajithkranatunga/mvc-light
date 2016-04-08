@@ -1,0 +1,42 @@
+body{
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+.page-wrap{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px #ccc solid;
+}
+.header, .footer, .content-area{
+    padding: 15px;
+    text-align: center;
+    border-bottom: #ccc 1px solid;
+}
+.content-area form{
+    width: 50%;
+    margin: auto;
+}
+.form-element{
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.form-element label{
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+.form-element input{
+    width: 60%;
+    float: left;
+}
+.form-element input[type='submit']{
+    width: auto;
+    float: right;
+    margin-right: 9%;
+}
+.error-page{
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px #cccccc solid;
+}
