@@ -66,8 +66,8 @@ class Router{
             }
         } else {
             /** if url/controller is not set, load home page */
-            require_once(ABSPATH.'Controller/home.php');
-            $controller = new Home();
+            require_once(ABSPATH.'Controller/index.php');
+            $controller = new Index();
         }
     }
 }
